@@ -131,6 +131,7 @@ export default function LoginPage() {
               </div>
 
               <Btn
+                href="/Dashboard/Admin"
                 variant="btn-primary"
                 text="Sign In"
                 onClick={handleSubmit}
